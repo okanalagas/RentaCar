@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RentaCar.BLL\RentaCar.BLL.csproj" />
+    <ProjectReference Include="..\RentaCar.Entities\RentaCar.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
