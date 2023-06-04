@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\103S-2\\Desktop\\Asp.Net\\RentaCar\\RentaCar.Entities\\RentaCar.Entities.csproj": {}
+    "C:\\Users\\Okan\\Documents\\GitHub\\RentaCar\\RentaCar\\RentaCar.Entities\\RentaCar.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\103S-2\\Desktop\\Asp.Net\\RentaCar\\RentaCar.Entities\\RentaCar.Entities.csproj": {
+    "C:\\Users\\Okan\\Documents\\GitHub\\RentaCar\\RentaCar\\RentaCar.Entities\\RentaCar.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\103S-2\\Desktop\\Asp.Net\\RentaCar\\RentaCar.Entities\\RentaCar.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Okan\\Documents\\GitHub\\RentaCar\\RentaCar\\RentaCar.Entities\\RentaCar.Entities.csproj",
         "projectName": "RentaCar.Entities",
-        "projectPath": "C:\\Users\\103S-2\\Desktop\\Asp.Net\\RentaCar\\RentaCar.Entities\\RentaCar.Entities.csproj",
-        "packagesPath": "C:\\Users\\103S-2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\103S-2\\Desktop\\Asp.Net\\RentaCar\\RentaCar.Entities\\obj\\",
+        "projectPath": "C:\\Users\\Okan\\Documents\\GitHub\\RentaCar\\RentaCar\\RentaCar.Entities\\RentaCar.Entities.csproj",
+        "packagesPath": "C:\\Users\\Okan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Okan\\Documents\\GitHub\\RentaCar\\RentaCar\\RentaCar.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\103S-2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Okan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,34 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
